@@ -95,94 +95,71 @@ Validate against requirements   →    Evaluate against metrics
 </details>
 
 <details>
-<summary><b>🟡 Phase 3: Testing Frameworks (Weeks 23-34)</b> — Mastering Production Tools</summary>
+<summary><b>🟡 Phase 3: Frameworks Mastery (Weeks 29-38)</b> — Production-Ready Tooling</summary>
 
 | Week | Focus | Mini-Project | Skills |
 |------|-------|--------------|--------|
-| 23 | DeepEval Setup | `deepeval-starter` — First DeepEval tests | Installation, basic usage |
-| 24 | DeepEval Metrics | `deepeval-metrics-demo` — All built-in metrics | 14+ metrics mastery |
-| 25 | DeepEval Advanced | `deepeval-custom` — Custom metrics in DeepEval | Custom metric integration |
-| 26 | DeepEval CI/CD | `deepeval-pipeline` — GitHub Actions integration | CI/CD for LLM tests |
-| 27 | RAGAS Fundamentals | `ragas-intro` — First RAGAS evaluation | Core RAGAS metrics |
-| 28 | RAGAS Deep Dive | `ragas-advanced` — Synthetic data generation | Full RAGAS pipeline |
-| 29 | Promptfoo Setup | `promptfoo-starter` — Prompt comparison testing | Promptfoo basics |
-| 30 | Promptfoo Advanced | `prompt-ab-tester` — Full A/B testing pipeline | Advanced comparisons |
-| 31 | Tool Comparison | `tool-benchmark` — Compare all 3 frameworks | When to use what |
-| 32 | LangSmith Tracing | `langsmith-monitor` — Production monitoring | Observability |
-| 33 | Combined Pipeline | `unified-evaluator` — All tools together | Integration patterns |
-| 34 | Open Source Contribution #1 | `first-pr` — First PR to DeepEval/RAGAS | OSS contribution |
+| 29 | DeepEval Setup | `deepeval-starter` — First DeepEval tests | Installation, basic usage |
+| 30 | DeepEval Metrics | `deepeval-metrics-explorer` — All built-in metrics | 14+ metrics mastery |
+| 31 | DeepEval Advanced | `deepeval-custom` — Custom metrics & datasets | Custom metric integration |
+| 32 | DeepEval CI/CD | `deepeval-pipeline` — GitHub Actions integration | CI/CD for LLM tests |
+| 33 | RAGAS Fundamentals | `ragas-starter` — First RAGAS evaluation | Core RAGAS metrics |
+| 34 | RAGAS Advanced | `ragas-advanced` — Synthetic data generation | Full RAGAS pipeline |
+| 35 | Promptfoo Setup | `promptfoo-starter` — Prompt comparison testing | Promptfoo basics |
+| 36 | Promptfoo Advanced | `promptfoo-advanced` — Full A/B testing | Advanced comparisons |
+| 37 | Tool Comparison | `tool-benchmark` — Compare all 3 frameworks | Framework selection strategy |
+| 38 | Open Source Contribution | `first-contribution` — First PR to a framework | OSS contribution |
 
-**Phase Outcome:** Proficient in all major frameworks, first open source contribution merged.
+**Phase Outcome:** Proficient in DeepEval, RAGAS, and Promptfoo. First OSS contribution merged.
 </details>
 
 <details>
-<summary><b>🔴 Phase 4: Red Teaming & Safety (Weeks 35-42)</b> — Security Testing for LLMs</summary>
+<summary><b>� Phase 4: Agentic AI & Production (Weeks 39-46)</b> — Testing Modern Systems</summary>
 
 | Week | Focus | Mini-Project | Skills |
 |------|-------|--------------|--------|
-| 35 | Garak Introduction | `garak-scanner` — First vulnerability scan | Garak basics |
-| 36 | Prompt Injection | `injection-tester` — Test injection attacks | Attack patterns |
-| 37 | Jailbreak Testing | `jailbreak-suite` — Comprehensive jailbreak tests | Jailbreak techniques |
-| 38 | Custom Garak Probes | `custom-probes` — Build domain-specific probes | Probe development |
-| 39 | OWASP LLM Top 10 | `owasp-tester` — Test all OWASP vulnerabilities | Security framework |
-| 40 | DeepTeam Red Teaming | `deepteam-harness` — Structured adversarial testing | DeepTeam usage |
-| 41 | Security Report | `security-reporter` — Generate security reports | Documentation |
-| 42 | Red Team Capstone | `red-team-suite` — Complete red team toolkit | Full security testing |
+| 39 | Agent Architecture | `agent-anatomy` — ReAct pattern study | Agent internals, tracing |
+| 40 | Tool Use Testing | `tool-tester` — Test function calling | Tool validation |
+| 41 | Agent Evaluation | `agent-evaluator` — Task completion metrics | Trajectory evaluation |
+| 42 | Multi-Agent Systems | `multi-agent-tester` — Collaborative agents | Coordination testing |
+| 43 | Production Monitoring | `production-monitor` — LangSmith setup | Observability, tracing |
+| 44 | Drift Detection | `drift-detector` — Catch regressions | Regression testing |
+| 45 | Performance & Cost | `perf-cost-tester` — Latency/Token benchmarks | Load testing, optimization |
+| 46 | Human Evaluation | `human-eval-framework` — Annotation systems | Human-in-the-loop |
 
-**Phase Outcome:** Can conduct comprehensive LLM security assessments, OWASP expertise.
+**Phase Outcome:** Can test complex agentic systems and monitor them in production.
 </details>
 
 <details>
-<summary><b>🟠 Phase 5: Agentic AI Testing (Weeks 43-48)</b> — Testing Systems That Think</summary>
-
-| Week | Focus | Mini-Project | Skills |
-|------|-------|--------------|--------|
-| 43 | Agent Architecture | `agent-anatomy` — Understand ReAct pattern | Agent concepts |
-| 44 | Tool Use Testing | `tool-tester` — Test function calling | Tool validation |
-| 45 | Multi-Agent Systems | `multi-agent-tester` — Test agent collaboration | Agent orchestration |
-| 46 | Agent Evaluation | `agent-evaluator` — Metrics for agents | Task completion metrics |
-| 47 | LangGraph Testing | `langgraph-tester` — Test stateful agents | LangGraph patterns |
-| 48 | Agent Safety | `agent-guardrails` — Test agent boundaries | Permission testing |
-
-**Phase Outcome:** Can test complex agentic systems, understand agent failure modes.
-</details>
-
-<details>
-<summary><b>⭐ Phase 6: Capstone (Weeks 49-52)</b> — Building LLMTestKit</summary>
+<summary><b>⭐ Phase 5: Capstone (Weeks 47-52)</b> — Building LLMTestKit</summary>
 
 | Week | Focus | Capstone Milestone | Deliverable |
-|------|-------|-------------------|-------------|
-| 49 | Architecture Design | Core framework structure | Design doc, folder structure |
-| 50 | Core Implementation | Evaluation engine, metrics | Working evaluator |
-| 51 | Advanced Features | Red team probes, reporting | Feature complete |
-| 52 | Polish & Launch | Documentation, CI/CD, launch | **LLMTestKit v1.0** 🚀 |
+|------|-------|--------------------|-------------|
+| 47 | Architecture Design | Core framework structure | Design doc, folder structure |
+| 48 | Core Evaluation Engine | Test inputs & runner | Working evaluation loop |
+| 49 | Built-in Metrics | Suite of 10+ metrics | Metric library |
+| 50 | Reporting & CLI | HTML reports, CLI tool | User interface |
+| 51 | CI/CD Integration | GitHub Action, Docs | Production ready |
+| 52 | Launch | PyPI Publish, Launch Post | **LLMTestKit v1.0** 🚀 |
 
-**Capstone Deliverable: LLMTestKit** — An open-source LLM testing framework featuring:
-- ✅ Modular evaluation engine
-- ✅ 10+ built-in metrics
-- ✅ Red team probe library
-- ✅ CI/CD GitHub Action
-- ✅ HTML/JSON report generator
-- ✅ Full documentation
+**Phase Outcome:** LLMTestKit published on PyPI, portfolio-ready open source project.
 </details>
 
 <details>
-<summary><b>🔮 Optional: Advanced Track (Weeks 53+)</b> — For Staff/Principal Level</summary>
+<summary><b>🎓 Optional Tracks (Post-52 Weeks)</b> — Specialization</summary>
 
-**ML/DL Deep Dive (12 weeks)** — Understanding the math behind metrics
-- Neural network foundations
-- Transformer architecture deep dive
-- Build custom evaluation metric from scratch
-- Contribute advanced features to open source
+### 🔴 Track A: Security & Red Teaming (+10 Weeks)
+For those targeting AI Security roles.
+*   **Focus:** Prompt Injection, Jailbreaking, Garak, OWASP Top 10.
+*   **Key Projects:** `garak-scanner`, `injection-tester`, `red-team-suite`.
 
-**Job Search Sprint (14 weeks)** — Landing the ₹75 LPA role
-- Portfolio optimization
-- Strategic networking
-- Interview preparation
-- Offer negotiation
-
-*This track is optional but recommended for Staff/Principal AI Test Architect roles.*
+### 🟤 Track B: ML Deep Dive (+10 Weeks)
+For Staff/Principal engineering roles.
+*   **Focus:** Loss functions, Transformer math, building metrics from scratch.
+*   **Key Projects:** `nn-from-scratch`, `attention-math`, `novel-metric`.
 </details>
+
+
 
 ---
 
@@ -190,13 +167,12 @@ Validate against requirements   →    Evaluate against metrics
 
 | Phase | Weeks | Status | Progress |
 |-------|-------|--------|----------|
-| 🔵 Foundation | 1-6 | 🟡 In Progress | ████░░░░░░ 16% |
-| 🟣 LLM Fundamentals | 7-14 | ⚪ Not Started | ░░░░░░░░░░ 0% |
-| 🟢 Evaluation | 15-22 | ⚪ Not Started | ░░░░░░░░░░ 0% |
-| 🟡 Frameworks | 23-34 | ⚪ Not Started | ░░░░░░░░░░ 0% |
-| 🔴 Red Teaming | 35-42 | ⚪ Not Started | ░░░░░░░░░░ 0% |
-| 🟠 Agentic AI | 43-48 | ⚪ Not Started | ░░░░░░░░░░ 0% |
-| ⭐ Capstone | 49-52 | ⚪ Not Started | ░░░░░░░░░░ 0% |
+| 🔵 Foundation | 1-8 | 🟡 In Progress | ████░░░░░░ 8% |
+| 🟣 LLM Fundamentals | 9-18 | ⚪ Not Started | ░░░░░░░░░░ 0% |
+| 🟢 Evaluation Core | 19-28 | ⚪ Not Started | ░░░░░░░░░░ 0% |
+| 🟡 Frameworks Mastery | 29-38 | ⚪ Not Started | ░░░░░░░░░░ 0% |
+| 🟠 Agentic AI | 39-46 | ⚪ Not Started | ░░░░░░░░░░ 0% |
+| ⭐ Capstone | 47-52 | ⚪ Not Started | ░░░░░░░░░░ 0% |
 
 **Overall: Week 1/52** — 2% Complete
 
@@ -243,7 +219,7 @@ genai-testing-journey/
 1. **⭐ Star the Repo** — The best way to follow the journey.
 2. **💬 Join Discussions** — Use the **Discussions tab** to share your weekly progress, find accountability partners, or ask questions.
 3. **🍴 Fork & Build** — Don't just read—build! Fork this repo and follow the weekly guides.
-4. **📺 Watch & Learn** — (Coming Soon) I break down complex GenAI testing concepts into simple explanations on [YouTube](https://youtube.com/@YOUR_CHANNEL_HANDLE).
+4. **📺 Watch & Learn** — I break down complex GenAI testing concepts into simple explanations on [YouTube](https://www.youtube.com/@SouravsLab).
 5. **🔗 Connect** — Share your wins on [LinkedIn](https://www.linkedin.com/in/srv-sngh).
 
 ### Community Stats
