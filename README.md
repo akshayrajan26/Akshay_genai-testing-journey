@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-green?style=for-the-badge)
 ![Followers](https://img.shields.io/badge/Community-Growing-orange?style=for-the-badge)
 
-**A structured 52-week journey from SDET to GenAI Test Framework Developer**
+**A structured 52-week journey from QA/SDET to GenAI Test Framework Developer**
 
 *Learning in public. Building in public. Growing together.*
 
