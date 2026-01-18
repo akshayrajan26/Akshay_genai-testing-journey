@@ -3,6 +3,4 @@ class PromptTemplate:
         self.template = template    
     
     def fill(self, **kwargs):
-        return self.template.format(**kwargs)   
-
-    
+        return self.template.format(**kwargs)

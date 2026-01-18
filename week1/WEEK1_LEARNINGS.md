@@ -1,6 +1,6 @@
 # Week 1 Completed: Key Learnings & Challenges
 
-## 🎯 What I Built
+## What I Built
 **Project:** `prompt-formatter` - A Python package for LLM prompt template handling
 
 **Core Features:**
@@ -9,9 +9,7 @@
 - Response cleaning utilities
 - Helper functions for token estimation and list formatting
 
----
-
-## 🚨 Critical Challenge: The ModuleNotFoundError
+## Critical Challenge: The ModuleNotFoundError
 
 ### The Problem
 Spent ~1 hour debugging this error:
@@ -62,7 +60,7 @@ pip install -e .
 
 ---
 
-## 📚 Learning Gap Identified
+## Learning Gap Identified
 
 ### What the Roadmap Said to Learn (Week 1):
 - ✅ Variables and data types
@@ -93,7 +91,7 @@ Week 1's mini-project required concepts from Weeks 3 and 4! This made the learni
 
 ---
 
-## 💡 What I Actually Learned Beyond the Syllabus
+## What I Actually Learned Beyond the Syllabus
 
 ### 1. Functions
 ```python
@@ -130,32 +128,6 @@ class PromptTemplate:
 
 ---
 
-## 🎓 LinkedIn Post Material
-
-### Option 1: Technical Learning
-> "Just completed Week 1 of my 52-week GenAI Testing Journey! 🚀
->
-> Built my first Python package: prompt-formatter
-> 
-> Key challenge: Spent an hour debugging 'ModuleNotFoundError' - turns out Python's import system requires understanding PYTHONPATH and project structure. Lesson learned: always run scripts from the package root!
-> 
-> The mini-project pushed me beyond Week 1's syllabus into functions, classes, and modules - a  steep but rewarding learning curve.
->
-> #Python #MachineLearning #GenAI #TestAutomation #LearningInPublic"
-
-### Option 2: Problem-Solving Focus
-> "Week 1 of 52-week GenAI Testing Journey: Complete! ✅
-> 
-> The hardest part wasn't the code - it was understanding Python's module system. After an hour of debugging import errors, I learned that WHERE you run your code matters as much as WHAT code you write.
->
-> Key insight: Development isn't just about writing code that works - it's about understanding the environment your code runs in.
->
-> Built: A prompt template engine for LLM testing
-> Learned: Functions, classes, and why PYTHONPATH matters
->
-> #Python #AI #TestAutomation #LearningInPublic"
-
----
 
 ## ✅ Week 1 Deliverables
 
@@ -171,8 +143,3 @@ class PromptTemplate:
 ### Practice
 - ✅ All 5 string exercises completed
 - ✅ Understanding of f-strings, `.format()`, string methods
-
-### Repository
-- ✅ Organized folder structure
-- ✅ Progress tracking updated
-- ✅ Ready for Week 2!

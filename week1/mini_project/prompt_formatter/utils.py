@@ -1,6 +1,9 @@
 def count_tokens_estimate(text: str) -> int:
     """
-    Rough estimate of token count (~4 characters per token).
+    Estimate the number of tokens in a string.
+
+    This is a rough estimate based on the assumption that
+    one token is approximately four characters.
     """
     return len(text) // 4
 

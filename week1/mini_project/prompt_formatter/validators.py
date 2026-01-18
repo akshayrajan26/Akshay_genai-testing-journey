@@ -1,5 +1,3 @@
-
-
 def validate_not_empty(value: str) -> bool:
     """
     Check if the value is not empty after stripping whitespace.
