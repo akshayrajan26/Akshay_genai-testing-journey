@@ -219,7 +219,7 @@ genai-testing-journey/
 1. **⭐ Star the Repo** — The best way to follow the journey.
 2. **💬 Join Discussions** — Use the **Discussions tab** to share your weekly progress, find accountability partners, or ask questions.
 3. **🍴 Fork & Build** — Don't just read—build! Fork this repo and follow the weekly guides.
-4. **📺 Watch & Learn** — I break down complex GenAI testing concepts into simple explanations on [YouTube](https://www.youtube.com/@SouravsLab).
+4. **📺 Watch & Learn** — I break down complex GenAI testing concepts into simple explanations on [YouTube](https://www.youtube.com/@SouravAILabs).
 5. **🔗 Connect** — Share your wins on [LinkedIn](https://www.linkedin.com/in/srv-sngh).
 
 ### Community Stats
