@@ -7,8 +7,14 @@
 # If score < 0.5, return "Unsafe"
 # Else, return "Safe"
 
-# TODO: Define the function here
+def check_safety(score: float):
+    if score < 0.5:
+        return "Unsafe"
+    else:
+        return "Safe"
 
+print(check_safety(0.1))
+print(check_safety(0.9))
 
 # TEST YOUR FUNCTION:
 # print(check_safety(0.1)) # Should be "Unsafe"
@@ -21,8 +27,10 @@
 # It should return a single string formatted like:
 # "System: [system_msg] | User: [user_msg]"
 
-# TODO: Define the function here
+def format_prompt(system_msg: str, user_msg: str):
+    return f"System: {system_msg} | User: {user_msg}"
 
+print(format_prompt("You are a bot", "Hi"))
 
 # TEST YOUR FUNCTION:
 # print(format_prompt("You are a bot", "Hi"))
@@ -35,9 +43,10 @@
 # It should RETURN the count (integer).
 # Do not print inside the function.
 
-# TODO: Define the function here
+def calculate_tokens(prompt: str):
+    return len(prompt.split(" "))
 
 
 # TEST YOUR FUNCTION:
-# count = calculate_tokens("This is a test prompt")
-# print(f"Token count is: {count}")
+count = calculate_tokens("This is a test prompt")
+print(f"Token count is: {count}")

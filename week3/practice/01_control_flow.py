@@ -9,7 +9,13 @@
 # If length > 500, print "Too long"
 # Else, print "Perfect"
 
-# TODO: Write your code here
+response_length = 150
+if response_length < 100:
+    print("Too short")
+elif response_length > 500:
+    print("Too long")
+else:
+    print("Perfect")
 
 
 # Exercise 2: For Loops
@@ -22,7 +28,14 @@ models = ["gpt-4", "gpt-3.5", "claude-3", "llama-2"]
 # If the model is "llama-2", print "Skipping local model" and use 'continue' to skip the rest of the loop block
 # If the model is "claude-3", print "Found target model!" and use 'break' to stop the loop entirely
 
-# TODO: Write your code here
+for model  in models:
+    print(f"Testing model: {model}")
+    if model == "llama-2":
+        print("Skipping local model")
+        continue
+    elif model == "claude-3":
+        print("Found target model!")
+        break
 
 
 # Exercise 3: While Loops
@@ -37,4 +50,9 @@ max_retries = 3
 #   Increment 'retries' by 1
 #   If retries equals 2, print "Success!" and break the loop
 
-# TODO: Write your code here
+while retries < max_retries:
+    print(f"Attempt {retries + 1}...")
+    retries += 1
+    if retries == 2:
+        print("Success!")
+        break
