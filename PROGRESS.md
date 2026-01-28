@@ -5,7 +5,7 @@ This document tracks my completion status for the **GenAI Testing Journey**.
 ## 📊 Summary
 | Phase | Weeks | Status | Progress |
 |-------|-------|--------|----------|
-| 🔵 Foundation | 1-8 | 🟡 In Progress | 12.5% |
+| 🔵 Foundation | 1-8 | 🟡 In Progress | 37.5% |
 | 🟣 LLM Fundamentals | 9-18 | ⚪ Not Started | 0% |
 | 🟢 Evaluation Core | 19-28 | ⚪ Not Started | 0% |
 | 🟡 Frameworks Mastery | 29-38 | ⚪ Not Started | 0% |
@@ -15,10 +15,10 @@ This document tracks my completion status for the **GenAI Testing Journey**.
 ## 📝 Detailed Checklist
 
 ### 🔵 Phase 0: Foundation
-- [x] **Week 1: Python Basics** - `prompt-formatter`
-- [/] **Week 2: Data Structures** - `test-case-manager`
-- [ ] **Week 3: Functions & Control Flow** - `llm-response-validator`
-- [ ] **Week 4: Modules & Packages** - `llm-test-utils`
+- [x] **Week 1: Python Basics** - `prompt-formatter` ✅ COMPLETE
+- [x] **Week 2: Data Structures** - `test-case-manager` ✅ COMPLETE
+- [x] **Week 3: Functions & Control Flow** - `llm-response-validator` ✅ COMPLETE
+- [/] **Week 4: Modules & Packages** - `llm-test-utils` 🔄 IN PROGRESS
 - [ ] **Week 5: File Handling & JSON** - `dataset-loader`
 - [ ] **Week 6: Error Handling & Logging** - `robust-api-caller`
 - [ ] **Week 7: pytest Fundamentals** - `test-suite-basics`
