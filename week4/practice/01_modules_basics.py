@@ -21,9 +21,9 @@ Files to creating during this exercise:
 # ---------------------------------------------------------
 # TODO: Uncomment the lines below after creating the file
 
-from week4.practice.helper import my_math
+from helper.my_math import add
 
-result = my_math.add(10, 5)
+result = add(10, 5)
 print(f"10 + 5 is: {result}")
 
 # HINT: If you get ModuleNotFoundError, make sure my_math.py is in the SAME folder.
@@ -34,7 +34,7 @@ print(f"10 + 5 is: {result}")
 # TODO: Add a 'subtract' function to my_math.py
 # TODO: Import ONLY the subtract function below
 
-from week4.practice.helper.my_math import subtract
+from helper.my_math import subtract
 print(f"10 - 5 is: {subtract(10, 5)}")
 
 # ---------------------------------------------------------
@@ -42,5 +42,5 @@ print(f"10 - 5 is: {subtract(10, 5)}")
 # ---------------------------------------------------------
 # TODO: Import my_math as 'mm' and use mm.add()
 
-from week4.practice.helper import my_math as mm
-print(f"Aliased Add: {mm.add(20, 20)}")
+from helper.my_math import add as mm
+print(f"Aliased Add: {mm(20, 20)}")

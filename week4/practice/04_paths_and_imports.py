@@ -42,9 +42,17 @@ external_lib.utils.say_hello()
 
 # TODO: Try adding "from . import 01_modules_basics" here.
 # It will fail with "ImportError: attempted relative import with no known parent package"
+# Also, "01_modules_basics" is not a valid Python identifier because it starts with a number.
+
+# from . import 01_modules_basics # <--- This would fail (SyntaxError if used as identifier)
+# print(01_modules_basics.add(10, 20))
 
 # ---------------------------------------------------------
 # Step 3: Absolute Imports
 # ---------------------------------------------------------
 # Always prefer absolute imports (full path from project root) whenever possible.
 # Example: from week4.practice import my_math
+
+# This would fail if running the script directly without the project root in sys.path
+# from week4.practice import my_math
+# print(my_math.add(10, 20))

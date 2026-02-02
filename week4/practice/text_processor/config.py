@@ -1,0 +1,2 @@
+DEFAULT_MODEL = "gpt-3.5"
+MAX_TOKENS = 1000
