@@ -1,14 +1,13 @@
 # Week 5: File Handling & JSON
 
-**Why This Matters for AI Testing:**
-Test datasets are JSON/JSONL files. Results are saved as JSON. This is fundamental.
+## Overview
+Week 5 focuses on data persistence mechanisms in Python, specifically reading/writing text files, handling JSON data (essential for LLM interactions), and managing file paths efficiently.
 
-**Learning Focus:**
-- Reading/writing text files
-- JSON parsing and serialization
-- JSONL (JSON Lines) format
-- Error handling for file operations
-- Path handling with pathlib
+## Learning Objectives
+- Master reading and writing text files.
+- Understand JSON serialization and deserialization using the `json` module.
+- Adopt modern path handling with `pathlib`.
+- Work with JSONL (JSON Lines) format, a standard for large AI datasets.
 
 ## Practice Files
 The `practice/` directory contains structured exercises with TODOs to reinforce these concepts.
@@ -40,8 +39,19 @@ The `practice/` directory contains structured exercises with TODOs to reinforce 
     ```
 3.  Proceed to the Week 5 Mini-Project: **`dataset-loader`**.
 
-**Mini-Project: `dataset-loader`**
-```
+
+## Mini-Project: `dataset-loader`
+
+**Why This Matters for AI Testing:**
+Test datasets are JSON/JSONL files. Results are saved as JSON. This is fundamental.
+
+**Learning Focus:**
+- Reading/writing text files
+- JSON parsing and serialization
+- JSONL (JSON Lines) format
+- Error handling for file operations
+- Path handling with pathlib
+
 Build a dataset manager:
 ├── Load test cases from JSONL
 ├── Validate schema (required fields)
