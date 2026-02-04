@@ -17,7 +17,8 @@ from llm_test_utils import (
     validate_not_empty, 
     validate_max_length, 
     validate_contains_keywords,
-    validate_json_format
+    validate_json_format,
+    log_test_result
 )
 
 # -------------------------------------------------------------
@@ -114,8 +115,8 @@ for case in manager.get_all_cases():
             is_valid = False
             
     if is_valid:
-        print("  [PASS] All validations passed.")
+        log_test_result(case["name"], True, "All validations passed.")
     else:
-        print("  [FAIL] Some validations failed.")
+        log_test_result(case["name"], False, "Some validations failed.")
 
 print("\n--- Done! ---")
