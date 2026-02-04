@@ -5,6 +5,7 @@
 ![Week](https://img.shields.io/badge/Current_Week-5%2F52-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-green?style=for-the-badge)
 ![Followers](https://img.shields.io/badge/Community-Growing-orange?style=for-the-badge)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube)](https://youtube.com/@SouravAILabs)
 
 **A structured 52-week journey from QA/SDET to GenAI Test Framework Developer**
 
