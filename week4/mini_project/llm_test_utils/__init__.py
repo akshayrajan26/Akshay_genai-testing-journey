@@ -11,6 +11,7 @@
 from .formatters import format_prompt
 from .validators import validate_not_empty, validate_max_length, validate_contains_keywords, validate_json_format
 from .test_cases import TestCaseManager
+from .helpers import log_test_result
 
 # Define what is available when someone does 'from llm_test_utils import *'
 __all__ = [
@@ -19,5 +20,6 @@ __all__ = [
     'validate_max_length',
     'validate_contains_keywords',
     'validate_json_format',
-    'TestCaseManager'
+    'TestCaseManager',
+    'log_test_result'
 ]
