@@ -1,0 +1,14 @@
+[
+    {
+        "input": "How do I use Python to read a JSON file?",
+        "expected_output": "Use the 'json' module and open the file with 'json.load()'."
+    },
+    {
+        "input": "What is pathlib?",
+        "expected_output": "A modern Python library for object-oriented filesystem paths."
+    },
+    {
+        "input": "Invalid entry",
+        "missing_field": "This should fail validation"
+    }
+]
