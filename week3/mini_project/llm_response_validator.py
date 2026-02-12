@@ -91,7 +91,7 @@ def batch_validate(*responses, **config):
     """
     Validates multiple responses at once using *args.
     """
-    print(f"\n🚀 Starting Batch Validation for {len(responses)} items...")
+    print(f"\nStarting Batch Validation for {len(responses)} items...")
     for i, res in enumerate(responses, 1):
         print(f"\nChecking Case #{i}:")
         validate_response(res, **config)
