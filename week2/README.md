@@ -228,14 +228,21 @@ Challenge: Build a mini test case database using only data structures
 
 ## Saturday-Sunday: Build `test-data-organizer`
 
-**Mini-Project: `test-data-organizer` (Simplified)**
-```
-Build a test case organizer (single Python file):
-├── Store test cases as list of dictionaries (in memory)
-├── Add, search, filter test cases
-├── Calculate statistics (pass rate, category breakdown)
-└── Simple menu-driven interface
+**Mini-Project: `test-data-organizer`**
 
-Note: JSON export/import moved to Week 5
-      Package structure moved to Week 4
+### Why this matters in AI testing?
+In AI testing, you're rarely dealing with a single test case. You're often managing hundreds of prompt-response pairs, test datasets, and evaluation results. Mastering data structures (lists and dictionaries) allows you to organize, filter, and analyze this data efficiently without needing a complex database at the start.
+
+### Learning Focus
+- Storing complex data using Lists and Dictionaries
+- Managing nested structures (like a list of test case dictionaries)
+- Basic function usage to perform data operations (add, filter, calculate)
+
+### Mini-Project Overview
+**A test case manager that stores, searches, and filters test data in memory.**
+
+```
+test-data-organizer/
+├── test_data_organizer.py  # Main script with menu system
+└── README.md               # Project specific instructions
 ```

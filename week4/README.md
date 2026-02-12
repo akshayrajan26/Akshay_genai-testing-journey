@@ -111,13 +111,28 @@ Run `week4/practice/05_structure_challenge.py`. It contains a "monolith" of code
 ## Saturday-Sunday: Build `llm-test-utils`
 
 **Mini-Project: `llm-test-utils`**
+
+### Why this matters in AI testing?
+When you move from a solo experimenter to a professional AI tester, you need a toolkit that is organized, reliable, and reusable across multiple projects. Understanding modules and packages allows you to turn your scripts into a professional library, while virtual environments ensure your testing tools don't break when you update your system.
+
+### Learning Focus
+- Organizing code into logical Modules (`validators`, `formatters`)
+- Creating a multi-file Package structure with `__init__.py`
+- Managing dependencies using `requirements.txt` and Virtual Environments
+
+### Mini-Project Overview
+**A reusable Python package that bundles all previous weeks' utilities into a single, professional toolkit.**
+
 ```
-Create a reusable package:
 llm_test_utils/
-├── __init__.py
-├── validators.py      # From week 3
-├── formatters.py      # From week 1
-├── test_cases.py      # From week 2
-├── helpers.py         # Common utilities
-└── requirements.txt
+├── llm_test_utils/
+│   ├── __init__.py
+│   ├── validators.py      # From week 3
+│   ├── formatters.py      # From week 1
+│   ├── test_cases.py      # From week 2
+│   └── helpers.py         # Common utilities
+├── setup.py               # Package installation script
+├── main.py                # Entry point for testing the package
+├── requirements.txt       # Project dependencies
+└── README.md              # Project specific instructions
 ```

@@ -219,11 +219,20 @@ Challenge: Build a Mini-Validator Library
 ## Saturday-Sunday: Build `llm-response-validator`
 
 **Mini-Project: `llm-response-validator`**
+
+### Why this matters in AI testing?
+An AI tester's job is to verify that an LLM's output is safe, accurate, and correctly formatted. This requires more than just "looking" at the response; it requires code that can programmatically check for JSON validity, prohibited words, and length constraints. This project teaches you how to build the logic that makes automated evaluation possible.
+
+### Learning Focus
+- Implementing complex business logic with `if/else` and loops
+- Using List Comprehensions for efficient data processing
+- Building reusable validation functions with proper arguments and return values
+
+### Mini-Project Overview
+**A validation library that programmatically checks LLM responses for quality and safety.**
+
 ```
-Build validation functions:
-├── validate_not_empty(response)
-├── validate_max_length(response, limit)
-├── validate_contains_keywords(response, keywords)
-├── validate_json_format(response)
-└── validate_no_pii(response)  # Basic patterns
+llm-response-validator/
+├── llm_response_validator.py  # Validation logic and interactive tester
+└── README.md                   # Project specific instructions
 ```

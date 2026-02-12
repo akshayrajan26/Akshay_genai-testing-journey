@@ -16,6 +16,12 @@ This is fundamental for logging, saving simple data, and managing configuration 
 
 # Your code here:
 
+content = "Hello, AI World!\nThis is my first file."
+
+with open("example.txt", "w") as file:
+    file.write(content)
+
+
 
 
 # -----------------------------------------------------------------------------
@@ -28,6 +34,11 @@ This is fundamental for logging, saving simple data, and managing configuration 
 
 # Your code here:
 
+with open("example.txt", "r") as file:
+    read_content = file.read()
+    print(read_content)
+
+
 
 
 # -----------------------------------------------------------------------------
@@ -38,6 +49,8 @@ This is fundamental for logging, saving simple data, and managing configuration 
 # TODO: 3. Close the file
 
 # Your code here:
+with open("example.txt", "a") as file:
+    file.write("\nAppending a new line!")
 
 
 
@@ -50,6 +63,11 @@ This is fundamental for logging, saving simple data, and managing configuration 
 
 # Your code here:
 
+with open("example.txt", "r") as file:
+    for line_no, line in enumerate(file, start=1):
+        print(f"Line {line_no}: {line}", end="")
+
+
 
 
 # -----------------------------------------------------------------------------
@@ -60,4 +78,11 @@ This is fundamental for logging, saving simple data, and managing configuration 
 # TODO: 3. Print a friendly error message
 
 # Your code here:
+
+try:
+    with open("ghost_file.txt", "r") as file:
+        file.read()
+except FileNotFoundError:
+    print("File not found!")
+
 

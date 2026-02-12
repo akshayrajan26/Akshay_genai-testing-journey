@@ -292,14 +292,21 @@ def is_not_empty(response: str) -> bool:
 
 ## Week 1 Deliverables
 
-## Thursday-Saturday: Build `prompt-formatter`
+## Thursday-Sunday: Build `prompt-formatter`
 
-### Project Overview
-**What you're building:** A Python package that handles prompt template creation, validation, and formatting — the foundation for all LLM testing.
+**Mini-Project: `prompt-formatter`**
 
-**Why this matters:** Every LLM test starts with a prompt. Having a robust, reusable prompt handling system is essential.
+### Why this matters in AI testing?
+Every LLM test starts with a prompt. In a professional setting, we don't just "paste" text; we use templates to ensure consistency, safety, and scale. Mastering strings and variables allows you to build the core foundation of any automated GenAI testing framework.
 
-### Project Structure
+### Learning Focus
+- Mastering string manipulation (`strip`, `split`, `replace`)
+- Using f-strings for dynamic prompt creation
+- Understanding basic project structure (modules and files)
+
+### Mini-Project Overview
+**A Python package that handles prompt template creation, validation, and formatting.**
+
 ```
 prompt-formatter/
 ├── prompt_formatter/

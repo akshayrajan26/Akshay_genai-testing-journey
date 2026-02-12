@@ -1,11 +1,5 @@
 """
-Week 2 Mini-Project: Test Data Organizer 🗂️
-
-Goal: Build a tool to manage LLM test cases using Python data structures.
-Learnings Applied: Lists, Dictionaries, Sets, Tuples, Basic Functions.
-
-"""
-Week 2 Mini-Project: Test Data Organizer 🗂️
+Week 2 Mini-Project: Test Data Organizer
 
 Goal: Build a tool to manage LLM test cases using Python data structures.
 Learnings Applied: Lists, Dictionaries, Sets, Tuples, Basic Functions.
@@ -25,7 +19,6 @@ def create_test_case(tc_id, prompt, category) -> dict:
     Returns:
         dict: A test case dictionary with keys: id, prompt, category, status, run_count
     """
-    """
     # Initialize 'status' to "pending" and 'run_count' to 0 (int)
     return {
             "tc_id": tc_id,
@@ -41,7 +34,7 @@ def add_test_case():
     """
     print("\n--- Add New Test Case ---")
     
-    """
+
     tc_id = input("Enter Test ID: ")
     prompt = input("Enter Test Prompt: ")
     category = input("Enter Test Category: ")
@@ -53,7 +46,7 @@ def view_all_test_cases():
     """
     print("\n--- All Test Cases ---")
     
-    """
+
     if not test_cases:
         print("No test cases found.")
         return
@@ -67,7 +60,7 @@ def update_test_status():
     print("\n--- Update Test Status ---")
     target_id = input("Enter Test ID to update: ")
     
-    """
+
     for tc in test_cases:
         if tc['tc_id'] == target_id:
             new_status = input("Enter new status (passed/failed): ")
@@ -81,9 +74,9 @@ def show_statistics():
     """
     Calculates and prints statistics about the test data.
     """
-    print("\n--- Statistics 📊 ---")
+    print("\n--- Statistics ---")
     
-    """
+
     count_passed = len([t for t in test_cases if t['status'] == 'passed'])
     count_failed = len([t for t in test_cases if t['status'] == 'failed'])
     print(f"Total Test Cases: {len(test_cases)}")
@@ -113,7 +106,7 @@ def main():
         elif choice == '4':
             show_statistics()
         elif choice == '5':
-            print("Goodbye! 👋")
+            print("Goodbye!")
             break
         else:
             print("Invalid choice. Please try again.")
