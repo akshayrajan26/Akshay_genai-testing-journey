@@ -50,3 +50,6 @@ db.sqlite3
 # Rules
 .rules/
 
+/example.txt
+/temp_practice_output/hello.txt
+/response_data.json
