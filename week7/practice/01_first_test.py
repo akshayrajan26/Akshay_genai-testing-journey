@@ -10,15 +10,21 @@ How to write and run your first test in pytest.
 # TODO: Remember that test functions MUST start with 'test_'.
 
 # Your code here:
+def test_addition():
+    assert 1 + 1 == 2
 
 # Exercise 2: Naming conventions
 # TODO: Create a test function with an invalid name (e.g., 'check_subtraction').
 # TODO: Run pytest and observe if it finds the test.
 
 # Your code here:
+def check_subtraction():
+    assert 5 - 2 == 3
 
 # Exercise 3: Adding a failing test
 # TODO: Create a test function that purposefully fails.
 # TODO: Observe the output when running pytest.
 
 # Your code here:
+def test_failing():
+    assert 2 + 2 == 5

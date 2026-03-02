@@ -258,11 +258,11 @@ Enhance your test suite:
 ```
 
 **🎯 Phase 0 Checkpoint:**
-- [ ] Can write clean Python code
-- [ ] Understand modules and packages
-- [ ] Comfortable with JSON/file handling
-- [ ] Can write pytest tests with fixtures
-- [ ] Have 8 mini-projects on GitHub
+- [x] Can write clean Python code
+- [x] Understand modules and packages
+- [x] Comfortable with JSON/file handling
+- [x] Can write pytest tests with fixtures
+- [x] Have 7 mini-projects on GitHub
 
 ---
 
