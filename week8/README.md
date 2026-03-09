@@ -26,7 +26,7 @@ By end of this week, you will:
 ## Resources
 
 ### YouTube
-- [Corey Schafer: Pytest Fixtures - Setup and Teardown](https://www.youtube.com/watch?v=H7mJ9uA_QHs)
+- [Software Testing Mentor: Pytest Tutorial & Fixtures Guide](https://www.youtube.com/watch?v=yA5jqNCCOLE)
 
 ### Documentation
 - [pytest Fixtures: explicit, modular, scalable](https://docs.pytest.org/en/latest/explanation/fixtures.html)
@@ -69,8 +69,8 @@ Week 8 has 4 practice files to cover everything for the mini-project:
 ## Monday: Introduction to Fixtures (1 hour)
 
 ### Watch These Videos
-1. **Corey Schafer: Pytest Fixtures**
-   - URL: https://www.youtube.com/watch?v=H7mJ9uA_QHs
+1. **Software Testing Mentor: Pytest Fixtures**
+   - URL: https://www.youtube.com/watch?v=yA5jqNCCOLE
    - Why: Learn how to manage test state properly.
 
 ### Practice Exercises
