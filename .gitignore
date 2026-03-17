@@ -1,4 +1,5 @@
 
+
 # General
 .DS_Store
 .AppleDouble
@@ -53,3 +54,14 @@ db.sqlite3
 /example.txt
 /temp_practice_output/hello.txt
 /response_data.json
+=======
+﻿# Ignore everything outside this folder
+../../*
+../*
+
+# System files
+desktop.ini
+*.lnk
+NTUSER*
+ntuser*
+
